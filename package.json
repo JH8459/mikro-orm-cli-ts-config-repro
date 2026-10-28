@@ -1,0 +1,13 @@
+{
+  "name": "mikro-orm-cli-ts-config-repro",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@mikro-orm/cli": "7.2.5",
+    "@mikro-orm/core": "7.2.5",
+    "@mikro-orm/mariadb": "7.2.5"
+  },
+  "mikro-orm": {
+    "configPaths": ["./src/mikro-orm.config.ts"]
+  }
+}
